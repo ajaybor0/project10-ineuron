@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	padding: 20px 0;
+	color: #ffffff;
+	background: linear-gradient(0deg, rgba(7, 67, 87, 0.5), rgb(5, 58, 75)),
+		url('/images/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 100vh;
+}
+
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.header {
+	font-size: 18px;
+	font-weight: bolder;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 30px 0px;
+
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	border-bottom: 2px solid #ffffff;
+	padding-bottom: 40px;
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+	margin-left: 50px;
+}
+
+.list-items {
+	display: flex;
+}
+
+.list-item {
+	text-transform: capitalize;
+	list-style: none;
+	padding-right: 50px;
+}
+
+.phone-call {
+	width: 25px;
+	height: 25px;
+}
+
+.contact-list-items {
+	margin-left: 10px;
+}
+
+.contact-list-item {
+	list-style: none;
+}
+
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+}
+
+.hero-text {
+	padding: 100px 0;
+	width: 60%;
+}
+
+.hero-heading {
+	text-transform: capitalize;
+	font-size: 74px;
+	padding: 60px 0 30p;
+}
+
+.learn-more-btn {
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	background: transparent;
+	color: #ffffff;
+	border-radius: 50px;
+	border: 3px solid #ffffff;
+	margin: 60px 0;
+}
+
+.hero-boxes {
+	width: 40%;
+}
+
+.box {
+	background-color: #2f4353;
+	opacity: 0.8;
+	width: 250px;
+	padding: 20px 30px;
+	position: relative;
+}
+
+.box img {
+	padding: 0px 15px;
+	background-color: #ffffff;
+	border-radius: 50px;
+	width: 80px;
+}
+
+.box-puzzle {
+	position: absolute;
+	top: 80px;
+	right: 30px;
+}
+
+.box-puzzle::after {
+	content: '';
+	display: block;
+	height: 50px;
+	width: 1px;
+	background-color: #ffffff;
+	position: absolute;
+	bottom: -50px;
+	right: 80px;
+	opacity: 0.5;
+}
+
+.box-puzzle::before {
+	content: '';
+	display: block;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	position: absolute;
+	bottom: -65px;
+	right: 73px;
+	z-index: 1;
+}
+
+.box-idea::after {
+	content: '';
+	display: block;
+	height: 1px;
+	width: 50px;
+	background-color: #ffffff;
+	position: absolute;
+	right: -50px;
+	top: 80px;
+	opacity: 0.5;
+}
+
+.box-idea::before {
+	content: '';
+	display: block;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	position: absolute;
+	right: -65px;
+	top: 73px;
+	z-index: 1;
+}
+
+.box-idea {
+	position: absolute;
+	right: 300px;
+	bottom: 30px;
+}
+
+.description {
+	padding: 10px 0;
+}
